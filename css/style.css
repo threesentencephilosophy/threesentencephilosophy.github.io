@@ -32,10 +32,19 @@ nav {
 .contribution-footer-entry {
 	font-size: 0.9em;
 	color: #bcb8b8;
+
+}
+
+.contribution-footer-entry a {
+	color: #bcb8b8;
 }
 
 
 .contribution-footer-index {
 	font-size: 0.9em;
+	color: #bcb8b8;
+}
+
+.contribution-footer-index a {
 	color: #bcb8b8;
 }
