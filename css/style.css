@@ -14,11 +14,18 @@ nav {
 	margin-bottom: 30px;
 }
 
+
+/* Small. Above 34em (544px) */
+@media (max-width: 575px) {
+	a.site-logo-text {font-size: 1.3em;}
+}
+
+
 .site-logo-text {
 	font-family: 'Spectral', sans-serif;
 	font-size: 1.6em;
-	/*margin-top: px;*/
 }
+
 
 .entry-link-from-index {
 	color: #3a3a3a;
