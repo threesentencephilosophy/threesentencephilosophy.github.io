@@ -3,4 +3,8 @@ layout: default
 title: About
 ---
 
-By NW and JF. Write more here.. 	Maybe have about page as default landing page? 	
+{{ site.description }}
+
+A project by N.W. and J.F.
+
+Contact us at [{{ site.email }}](mailto:{{ site.email }})
