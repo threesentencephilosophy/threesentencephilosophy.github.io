@@ -1,0 +1,41 @@
+    body {
+        font-family: 'Proza Libre', sans-serif;
+		background: url(/img/contemporary_china.png);
+		background-repeat: repeat;
+
+/*        background: url(/img/contemporary_china.png);
+*/    }
+    /*        h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6{
+      font-family: 'Droid Serif', serif;
+    }*/
+
+nav {
+	margin-bottom: 30px;
+}
+
+.site-logo-text {
+	font-family: 'Spectral', sans-serif;
+	font-size: 1.6em;
+	/*margin-top: px;*/
+}
+
+.entry-link-from-index {
+	color: #3a3a3a;
+}
+
+.entry-content {
+	font-size: 1.2em;
+	line-height: 1.65em;
+}
+
+.contribution-footer-entry {
+	font-size: 0.9em;
+	color: #bcb8b8;
+}
+
+
+.contribution-footer-index {
+	font-size: 0.9em;
+	color: #bcb8b8;
+}

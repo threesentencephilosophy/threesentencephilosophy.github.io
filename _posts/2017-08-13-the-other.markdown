@@ -1,0 +1,6 @@
+---
+title:  "The Other"
+alphatitle: "Other, The"
+date:   2017-08-13 14:25:43 +0100
+---
+The Other is above [The Self]({% post_url 2017-08-13-the-self %}).

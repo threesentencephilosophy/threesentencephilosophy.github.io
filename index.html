@@ -1,0 +1,29 @@
+---
+layout: default
+title: Home
+---
+
+{% assign sortedPosts = site.posts | sort: 'alphatitle,title' | reverse  %}
+{% assign lastletter = "" %}
+
+{% for post in sortedPosts %}
+	{% if post.alphatitle %}
+	    {% assign tmpletter = post.alphatitle | slice: 0 | upcase %}
+    {% else %}
+	    {% assign tmpletter = post.title | slice: 0 | upcase %}
+    {% endif %}
+
+    {% if tmpletter != lastletter %}
+        <h2 style="margin: 24px 0 14px 0">{{ tmpletter }}</h2>
+    {% endif %}
+
+    <h5 style="margin-bottom: 14px"><a class="entry-link-from-index" href="{{ post.url }}">	{% if post.alphatitle %}{{ post.alphatitle }}{% else %}{{ post.title }}{% endif %}
+</a></h5>
+
+    {% assign lastletter = tmpletter %}
+
+{% endfor %}
+
+<div style="margin-top: 30px">
+<a href="pooman" class="contribution-footer-index">Have an idea for a new entry? Submit a pull request on GitHub.</a>
+</div>
